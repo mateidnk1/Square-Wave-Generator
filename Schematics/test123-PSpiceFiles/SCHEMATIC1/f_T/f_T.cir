@@ -1,0 +1,21 @@
+** Profile: "SCHEMATIC1-f_T"  [ c:\users\skypv\desktop\etti\test123-PSpiceFiles\SCHEMATIC1\f_T.sim ] 
+
+** Creating circuit file "f_T.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "c:/users/skypv/desktop/librarii_pspice/lib_modelepspice_anexa_1/modele_a1_lib/bc846b.lib" 
+.LIB "c:/users/skypv/desktop/librarii_pspice/lib_modelepspice_anexa_1/modele_a1_lib/bc856b.lib" 
+* From [PSPICE NETLIST] section of C:\Users\skypv\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.AC DEC 1000 1 100Meg
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END
